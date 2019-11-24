@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css4</title>
+    <style>
+        body {
+            border-style: double; 
+            border-color: black;
+            margin: 10px 10px 10px 10px;
+        }
+        .logo { 
+            display: block;
+            margin: auto;
+            padding: 30px 30px 30px 30px;
+        }
+        .sarasas {
+            text-transform: uppercase;
+            list-style-type: none;
+            font-family: Courier New;
+            font-size: 24px;
+            font-weight: inherit;
+            text-align: center;
+        }
+        ul li {
+            display: inline;
+        }
+        .tarpas {
+            padding: 0 45px 0 45px;
+        }
+        .liniju-margin{
+            margin: 25px 225px 25px 225px;
+        }
+        .linijos-pastorinimas {
+            border: 2px solid black;
+        }
+        .keys{
+            display: block;
+            margin: auto;
+            width: 70%;
+            height: auto;
+        }
+        .paragrafo {
+            font-family: Courier New;
+            font-size: 20px;
+            text-align: center;
+            padding: 25px 225px 25px 225px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img class="logo" src="images/logo.gif" alt="logo">
+    </div>
+    <div>
+        <hr class="liniju-margin linijos-pastorinimas">
+        <ul class="sarasas">
+            <li><a href="images/rhodes.jpg">pagrindinis</a></li>
+            <li class="tarpas">pardavimas</li>
+            <li>remontas</li>
+            <li class="tarpas">apie</li>
+            <li>kontaktai</li>
+        </ul>
+        <hr class="liniju-margin">
+    </div>
+    <div>
+        <img class="keys" src="images/keys.jpg" alt="keys">
+    </div>
+    <div class="paragrafo">
+        <p>Mes specializuojamės klasikinių klaviatūrų, ypač &quot;Fender Rhodes&quot;, Wurlitzer EP200 ir Hohner Clavinet, pardavimu ir taisymu.</p>
+    </div>
+</body>
+</html>
