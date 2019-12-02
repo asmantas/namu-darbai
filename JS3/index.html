@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nd-JS3</title>
+</head>
+<body>
+    <button onclick="calculate()">calculate</button>
+    <div id="result"></div>
+    
+    <script>
+        
+        var x = 20;
+        var y = 5;
+        var z = funk(x, y);
+        
+        function funk(x, y) {
+            return x / y;
+        }
+
+        
+        function calculate() {
+            document.getElementById("result").innerHTML = z;
+        }
+        
+        console.log(z);    
+    
+    </script>
+    
+</body>
+</html>
