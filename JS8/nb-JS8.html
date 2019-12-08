@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nd-JS8</title>
+</head>
+<body>
+    <button onclick="myFunction()">Push the button</button>
+    <script>
+        var allNames = ['Jonas', 'Mantas', 'Anika', 'Alina', 'Liuda', 'Gabija'];
+            //console.log(allNames);
+        var oneNameIndex = allNames.indexOf('Alina');
+            //console.log(oneNameIndex);
+        delete allNames[oneNameIndex];
+            console.log(allNames);
+        
+        function myFunction() {
+            allNames.splice(oneNameIndex, 1);
+            var newNameBlock = allNames;
+            console.log(newNameBlock);
+        }
+                
+    </script>
+</body>
+</html>
